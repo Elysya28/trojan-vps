@@ -1,7 +1,7 @@
 # trojan-vps
 
   ```html
- apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
+ apt update && apt upgrade -y && reboot
  ```
 
   ```html
