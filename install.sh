@@ -2,6 +2,7 @@
 
 # ==============================================================================
 # Skrip untuk mengunduh, mengekstrak, dan menjalankan Trojan Manager
+# Fitur: Membersihkan dirinya sendiri setelah selesai.
 # ==============================================================================
 
 # Hentikan eksekusi jika ada perintah yang gagal
@@ -64,6 +65,10 @@ echo "------------------------------------------------------------"
 ./"$EXEC_SCRIPT"
 
 echo "------------------------------------------------------------"
-log "Skrip telah selesai dieksekusi."
+log "Skrip utama telah selesai dieksekusi."
+
+# --- PERUBAHAN DI SINI: Hapus skrip installer itu sendiri ---
+log "Membersihkan skrip installer ini (self-destruct)..."
+rm -- "$0"
 
 exit 0
