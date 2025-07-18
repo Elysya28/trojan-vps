@@ -1,7 +1,9 @@
 # trojan-vps
 
+# Direkomendasikan menggunakan Debian 11
+
   ```html
- apt update && apt upgrade -y && reboot
+ apt update; apt install curl wget dnsutils gnupg tmux libssl-dev -y
  ```
 
   ```html
