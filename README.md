@@ -1,4 +1,5 @@
 # trojan-vps
+ini hanya menggunakan protokol trojan
 
 # Direkomendasikan menggunakan Debian 11
 
