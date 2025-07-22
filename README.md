@@ -1,5 +1,6 @@
 # trojan-vps
-ini hanya menggunakan protokol trojan
+Ini Hanya Menggunakan Protocol Trojan WS 
+Ketik menu ( untuk masuk ke tampilan main menu )
 
 # Direkomendasikan menggunakan Debian 12
 
