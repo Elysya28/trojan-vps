@@ -1,7 +1,7 @@
 # trojan-vps
 ini hanya menggunakan protokol trojan
 
-# Direkomendasikan menggunakan Debian 11
+# Direkomendasikan menggunakan Debian 12
 
   ```html
  apt update; apt install curl wget dnsutils gnupg tmux libssl-dev -y
