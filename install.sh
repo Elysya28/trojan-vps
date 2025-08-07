@@ -67,8 +67,7 @@ echo "------------------------------------------------------------"
 echo "------------------------------------------------------------"
 log "Skrip utama telah selesai dieksekusi."
 
-# --- PERUBAHAN DI SINI: Hapus skrip installer itu sendiri ---
 log "Membersihkan skrip installer ini (self-destruct)..."
-rm -- "$0"
+(sleep 2 && rm -- "$0") &
 
 exit 0
